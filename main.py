@@ -2,7 +2,6 @@ import threading
 import tkinter as tk
 import random, time, pyautogui, webbrowser
 
-# Create a flag to stop the program execution
 stop_program = False
 
 def run_popup():
@@ -20,7 +19,6 @@ def run_popup():
 
 def main_program():
     while not stop_program:
-        # Rest of your code
         print("Program is running...")
 
 
